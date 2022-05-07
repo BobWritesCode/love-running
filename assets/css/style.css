@@ -251,6 +251,7 @@ footer {
 
 /* For larger to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
+
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -289,5 +290,29 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 95%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .both-about-heading {
+        width: inherit;
+    }
+
+    .both-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .both-about-heading p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
